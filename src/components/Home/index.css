@@ -1,0 +1,50 @@
+.home-bg {
+  background-color: #152850;
+  height: 100vh;
+  padding: 30px 20px 30px 20px;
+}
+
+.logo {
+  width: 140px;
+  height: 70px;
+}
+
+.logout-button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  height: 50px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  width: 120px;
+  cursor: pointer;
+}
+
+.nav-container {
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 2;
+}
+.card-image {
+  width: 60%;
+}
+
+.link {
+  text-decoration: none;
+}
