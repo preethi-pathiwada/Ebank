@@ -16,7 +16,7 @@ class Login extends Component {
   onSubmitFailure = errorMsg => {
     const {history} = this.props
     this.setState({showSubmitError: true, errorMsg})
-    history.replace('/ebank/login')
+
   }
 
   submitForm = async event => {
